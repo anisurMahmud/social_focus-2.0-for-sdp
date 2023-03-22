@@ -119,10 +119,10 @@
                         
                         <!-- Messages -->
 
-                        <a href="#" class="header-links-item">
+                        <a href="{% url 'inbox' %}" class="header-links-item">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="0.5em" height="0.5em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="currentColor"><path d="M2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/></g></svg>
                         </a>
-                        <div uk-drop="mode: click;offset: 4" class="header_dropdown">
+                       <!-- <div uk-drop="mode: click;offset: 4" class="header_dropdown">
                             <h4
                                 class="-mt-5 -mx-5 bg-gradient-to-t from-gray-100 to-gray-50 border-b font-bold px-6 py-3">
                                 Messages </h4>
@@ -142,7 +142,7 @@
 
                             </ul>
                             <a href="#" class="see-all">See all</a>
-                        </div>
+                        </div>-->
 
                         <!-- profile -->
 
@@ -384,6 +384,7 @@
 
 
     <script src="{% static '../../unpkg.com/ionicons%405.2.3/dist/ionicons.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 
