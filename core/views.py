@@ -6,6 +6,11 @@ from django.contrib.auth.decorators import login_required
 from .models import Profile, Post, LikePost, FollowersCount, ThreadModel, MessageModel
 from itertools import chain
 import random
+# masage part
+from django.views import View
+from django.db.models import Q
+from django.contrib.auth.models import User
+from .forms import ThreadForm, MessageForm
 # Create your views here.
 
 @login_required(login_url='signin')
